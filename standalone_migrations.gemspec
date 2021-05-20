@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "standalone_migrations".freeze
-  s.version = "6.0.0"
+  s.version = "6.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -60,12 +60,12 @@ Gem::Specification.new do |s|
 
   if s.respond_to? :add_runtime_dependency then
     s.add_runtime_dependency(%q<rake>.freeze, [">= 10.0"])
-    s.add_runtime_dependency(%q<activerecord>.freeze, [">= 4.2.7", "< 6.1.0", "!= 5.2.3", "!= 5.2.3.rc1"])
-    s.add_runtime_dependency(%q<railties>.freeze, [">= 4.2.7", "< 6.1.0", "!= 5.2.3", "!= 5.2.3.rc1"])
+    s.add_runtime_dependency(%q<activerecord>.freeze, [">= 4.2.7", "< 6.2.0", "!= 5.2.3", "!= 5.2.3.rc1"])
+    s.add_runtime_dependency(%q<railties>.freeze, [">= 4.2.7", "< 6.2.0", "!= 5.2.3", "!= 5.2.3.rc1"])
   else
     s.add_dependency(%q<rake>.freeze, [">= 10.0"])
-    s.add_dependency(%q<activerecord>.freeze, [">= 4.2.7", "< 6.1.0", "!= 5.2.3", "!= 5.2.3.rc1"])
-    s.add_dependency(%q<railties>.freeze, [">= 4.2.7", "< 6.1.0", "!= 5.2.3", "!= 5.2.3.rc1"])
+    s.add_dependency(%q<activerecord>.freeze, [">= 4.2.7", "< 6.2.0", "!= 5.2.3", "!= 5.2.3.rc1"])
+    s.add_dependency(%q<railties>.freeze, [">= 4.2.7", "< 6.2.0", "!= 5.2.3", "!= 5.2.3.rc1"])
   end
 end
 
